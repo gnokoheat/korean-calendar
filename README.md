@@ -4,11 +4,11 @@
 
 ## Detail
 **1. BSON keys (Column)**
-- sc : <string> Solar calendar 양력
-- lc : <string> Lunar calendar 음력
-- w : <int> Day of week 요일 (1 : Sun, 2 : Mon, 3 : Tue, 4 : Wed, 5 : Thu, 6 : Fri, 7 : Sat)
-- h : <bool> Holiday 휴일
-- ht : <string> Holiday detail 휴일 내용
+- sc : string, Solar calendar 양력
+- lc : string, Lunar calendar 음력
+- w : int, Day of week 요일 (1 : Sun, 2 : Mon, 3 : Tue, 4 : Wed, 5 : Thu, 6 : Fri, 7 : Sat)
+- h : bool, Holiday 휴일
+- ht : string, Holiday detail 휴일 내용
   
 **2. Data example**
 ```
