@@ -25,5 +25,5 @@
 ## Usage
 - Insert bson data to MongoDB Collection
 ```
-mongorestore -h 127.0.0.1:27017 -d custom -c custom ./korean-calendar.bson
+mongorestore -h 127.0.0.1:27017 -d mydb -c mycollection ./korean-calendar.bson
 ```
