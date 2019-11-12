@@ -1,5 +1,5 @@
 # korean-calendar
-- MongoDB BSON data of Konrea calendar 🇰🇷
+- MongoDB BSON data of Korean calendar 🇰🇷
 - 2000y ~ 2100y Korean calendar with Solar calendar, Lunar calendar, Day of week and Holiday
 
 ## Detail
