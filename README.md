@@ -1,4 +1,6 @@
 # korean-calendar
+![GitHub](https://img.shields.io/github/license/gnokoheat/korean-calendar) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/gnokoheat/korean-calendar) ![GitHub last commit](https://img.shields.io/github/last-commit/gnokoheat/korean-calendar)
+
 - MongoDB BSON data of Korean calendar 🇰🇷
 - 2000y ~ 2100y Korean calendar with Solar calendar, Lunar calendar, Day of week and Holiday
 
