@@ -1,11 +1,11 @@
 # korean-calendar
 ![GitHub](https://img.shields.io/github/license/gnokoheat/korean-calendar) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/gnokoheat/korean-calendar) ![GitHub last commit](https://img.shields.io/github/last-commit/gnokoheat/korean-calendar)
 
-- MongoDB BSON data of Korean calendar 🇰🇷
+- MongoDB BSON and JSON data of Korean calendar 🇰🇷
 - 2000y ~ 2100y Korean calendar with Solar calendar, Lunar calendar, Day of week and Holiday
 
 ## Detail
-**1. BSON keys (Column)**
+**1. BSON and JSON keys (Column)**
 - sc : string, Solar calendar 양력
 - lc : string, Lunar calendar 음력
 - w : int, Day of week 요일 (1 : Sun, 2 : Mon, 3 : Tue, 4 : Wed, 5 : Thu, 6 : Fri, 7 : Sat)
@@ -25,7 +25,11 @@
 ```
 
 ## Usage
-- Insert bson data to MongoDB Collection
+- Insert BSON or JSON data to MongoDB Collection
 ```
 mongorestore -h 127.0.0.1:27017 -d mydb -c mycollection ./korean-calendar.bson
+```
+OR
+```
+mongoimport -h 127.0.0.1:27017 -d mydb -c mycollection --file ./korean-calendar.json
 ```
